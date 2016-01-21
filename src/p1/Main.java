@@ -49,6 +49,5 @@ public class Main {
         } while (option != 'D');
         System.out.println("Total Price is " + total + " USD\n");
         System.out.println("Thanks for ordering (┛◉Д◉)┛彡┻━┻ \n Prick.");
-        // write your code here
     }
 }
