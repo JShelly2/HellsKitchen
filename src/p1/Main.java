@@ -44,7 +44,7 @@ public class Main {
             }
             total += price;
             if (price != 0)
-                System.out.println("Current Price is " + total + " USD with the addition of the " + sandwich + " sandwich");
+                System.out.println("Current Price is " + total + " USD with the latest addition of the " + sandwich + " sandwich");
         } while (option != 'D');
         System.out.println("Total Price is " + total + " USD\n");
         System.out.println("Thanks for ordering (┛◉Д◉)┛彡┻━┻ \n Prick.");
