@@ -14,7 +14,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         String sandwich = null;
         char option;
-        double price = 0, total = 0;
+        double price, total = 0;
         System.out.println("Welcome to Table Flip Inc. \n What is your order?");
         do {
             System.out.println("(H)am [$5.50] \n(B)eef [$6.50] \n(S)alami [$4.75] \n(T)una [$5.00] \n(D)one [Complete Transaction] \nPlease print your choice:");
@@ -36,11 +36,12 @@ public class Main {
                     price = 5.00;
                     sandwich = "Tuna";
                     break;
+                case 'D':
+                    price = 0.00;
+                    break;
                 default:
                     price = 0.00;
                     System.out.println("OPTION ISN'T ON THE LIST (ノಠ益ಠ)ノ彡┻━┻ ");
-                case 'D':
-                    break;
             }
             total += price;
             if (price != 0)
